@@ -1,0 +1,5 @@
+.DS_Store
+graphify-out/
+config.local.php
+skills-lock.json
+*.zip

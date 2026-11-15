@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /src/
+
+Sitemap: https://antonkergourlay.fr/sitemap.xml
