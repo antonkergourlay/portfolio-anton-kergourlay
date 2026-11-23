@@ -414,12 +414,12 @@ $descriptionSeo = trim($descriptionSeo) . (mb_strlen($descriptionSeo) < 80 ? " P
                     <span>Étudiant en BUT MMI — IUT Laval<br>Graphisme &amp; création visuelle</span>
                 </div>
                 <div class="footer-col">
-                    <h3>Prestations</h3>
+                    <h3>Compétences</h3>
                     <ul>
-                        <li>Graphisme</li>
-                        <li>Création visuelle</li>
-                        <li>Édition et print</li>
-                        <li>Webdesign</li>
+                        <li>Design graphique</li>
+                        <li>Print</li>
+                        <li>Audiovisuel</li>
+                        <li>Web</li>
                     </ul>
                 </div>
                 <div class="footer-col">

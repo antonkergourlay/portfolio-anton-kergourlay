@@ -55,6 +55,10 @@ header("Content-type: text/html; charset=utf-8");
         <p>Les créations présentées (logos, mises en page, illustrations, mockups, photographies, sculptures) sont, sauf mention contraire, l'œuvre d'Anton Kergourlay. Leur reproduction ou leur réutilisation sans autorisation est interdite.</p>
         <p>Plusieurs projets sont des exercices universitaires ou des projets fictifs. Les marques, logos et œuvres qui y apparaissent (Rossignol, Chamrousse et les partenaires du Trail de la Croix, Naoki Urasawa et 20th Century Boys, menace Santana) appartiennent à leurs propriétaires respectifs et ne sont cités que pour illustrer le travail réalisé.</p>
 
+        <h2>Crédits photo</h2>
+        <p>Photographie du masque porté sur scène (projet menace Santana) : <a href="https://www.instagram.com/lesphotosdenat/" target="_blank" rel="noopener noreferrer">@lesphotosdenat</a> sur Instagram.</p>
+        <p>Portrait d'Anton Kergourlay (page À propos) : <a href="https://www.instagram.com/sacha.guitter.photo/" target="_blank" rel="noopener noreferrer">@sacha.guitter.photo</a> sur Instagram.</p>
+
         <h2>Données personnelles</h2>
         <p>Le formulaire de contact collecte votre nom, votre adresse e-mail et votre message, uniquement pour vous répondre. Ces informations sont transmises par e-mail à l'éditeur, ne sont pas enregistrées sur le site et ne sont pas communiquées à des tiers. Vous recevez un accusé de réception à l'adresse indiquée.</p>
         <p>Pour exercer vos droits d'accès, de rectification ou de suppression, écrivez à l'adresse indiquée ci-dessus.</p>

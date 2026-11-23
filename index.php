@@ -51,7 +51,7 @@ $projetsAccueil = [
                 "jobTitle": "Graphiste, étudiant en BUT MMI",
                 "knowsAbout": ["Graphisme", "Design éditorial", "Packaging", "Identité visuelle", "Création web"],
                 "image": "https://antonkergourlay.fr/images/previews/preview-portfolio.jpg",
-                "sameAs": <?php echo json_encode(array_values(array_filter(array("https://www.linkedin.com/in/anton-kergourlay-06a394317", LIEN_INSTAGRAM))), JSON_UNESCAPED_SLASHES); ?>
+                "sameAs": <?php echo json_encode(array_values(array_filter(array("https://www.linkedin.com/in/anton-kergourlay-06a394317", LIEN_GITHUB, LIEN_INSTAGRAM))), JSON_UNESCAPED_SLASHES); ?>
             }
         ]
     }
@@ -236,15 +236,15 @@ $projetsAccueil = [
                 </figure>
                 <div class="about">
                     <div class="about-text">
-                        <p>Je m’appelle Anton Kergourlay, je suis étudiant en deuxième année de BUT Métiers du Multimédia et de l’Internet à Laval. J’ai fait du dessin, de la peinture et du modelage, et j’aime surtout les univers visuels de la musique : pochettes, clips, identités, concerts. C’est dans ce domaine que je veux travailler.</p>
-                        <p>Je m’intéresse aussi à l’IA, pour apprendre à m’en servir correctement. Je recherche un stage de 10 semaines, du 22 février au 30 avril 2027.</p>
+                        <p>Je suis Anton Kergourlay, étudiant en deuxième année de BUT MMI à Laval. Je dessine, je peins et je fais du modelage, et je m’intéresse surtout aux univers visuels qui entourent la musique, en particulier le rap : pochettes, clips, identités, concerts. C’est dans ce domaine que je veux travailler.</p>
+                        <p>Je m’intéresse aussi beaucoup à l’IA, que j’essaie de comprendre pour m’en servir correctement. Je cherche un stage de 10 semaines, du 22 février au 30 avril 2027.</p>
                         <p class="about-more">Mes influences : SCH, PNL, Bello Dallas, Norman Rockwell, Metanoia, Mickael Azules, Holow, Dexter Maurer.</p>
                         <dl class="about-skills">
                             <div><dt>Design graphique</dt><dd><span class="sk-tools">Affinity, Figma</span><span class="sk-what">Identité visuelle, charte graphique, typographie, photomontage, mockups</span></dd></div>
                             <div><dt>Print</dt><dd><span class="sk-tools">Affinity Publisher</span><span class="sk-what">Mise en page, affiche, flyer, packaging, préparation des fichiers d’impression</span></dd></div>
                             <div><dt>Audiovisuel</dt><dd><span class="sk-tools">DaVinci Resolve, CapCut</span><span class="sk-what">Prise de son, montage vidéo et sonore</span></dd></div>
                             <div><dt>Création manuelle</dt><dd><span class="sk-tools">Dessin, peinture, modelage</span></dd></div>
-                            <div><dt>Web</dt><dd><span class="sk-tools">HTML / CSS, PHP</span></dd></div>
+                            <div><dt>Web</dt><dd><span class="sk-tools">HTML / CSS, PHP</span><span class="sk-what">J’ai déjà vendu des sites web</span></dd></div>
                         </dl>
                     </div>
                 </div>
@@ -326,12 +326,12 @@ $projetsAccueil = [
                     <span>Étudiant en BUT MMI — IUT Laval<br>Graphisme &amp; création visuelle</span>
                 </div>
                 <div class="footer-col">
-                    <h3>Prestations</h3>
+                    <h3>Compétences</h3>
                     <ul>
-                        <li>Graphisme</li>
-                        <li>Création visuelle</li>
-                        <li>Édition et print</li>
-                        <li>Webdesign</li>
+                        <li>Design graphique</li>
+                        <li>Print</li>
+                        <li>Audiovisuel</li>
+                        <li>Web</li>
                     </ul>
                 </div>
                 <div class="footer-col">
