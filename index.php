@@ -244,7 +244,8 @@ $projetsAccueil = [
                             <div><dt>Print</dt><dd><span class="sk-tools">Affinity Publisher</span><span class="sk-what">Mise en page, affiche, flyer, packaging, préparation des fichiers d’impression</span></dd></div>
                             <div><dt>Audiovisuel</dt><dd><span class="sk-tools">DaVinci Resolve, CapCut</span><span class="sk-what">Prise de son, montage vidéo et sonore</span></dd></div>
                             <div><dt>Création manuelle</dt><dd><span class="sk-tools">Dessin, peinture, modelage</span></dd></div>
-                            <div><dt>Web</dt><dd><span class="sk-tools">HTML / CSS, PHP</span><span class="sk-what">J’ai déjà vendu des sites web</span></dd></div>
+                            <div><dt>Web</dt><dd><span class="sk-tools">HTML / CSS, PHP</span><span class="sk-what">SEO et Search Console, performance avec Lighthouse, mise en ligne sur un serveur LWS</span></dd></div>
+                            <div><dt>IA</dt><dd><span class="sk-tools">Claude, Codex</span><span class="sk-what">Prompts, création de pages et de code avec l’IA</span></dd></div>
                         </dl>
                     </div>
                 </div>
