@@ -98,8 +98,12 @@ section { scroll-margin-top: 85px; }
 .about-text { max-width: 900px; }
 .about-text p { margin: 0 0 1.2rem; color: #343330; font-size: clamp(1.18rem,2vw,1.8rem); line-height: 1.55; letter-spacing: -.025em; }
 .about-text .about-more { max-width: 46rem; margin: 0 0 .8rem; color: var(--muted); font-size: .95rem; line-height: 1.6; }
-.about-stack { display: flex; flex-wrap: wrap; gap: .5rem 1.2rem; margin-top: 2rem; }
-.stack-tag { padding: 0 0 .25rem; border: 0; border-bottom: 1px solid var(--line); color: var(--muted); background: transparent; font-size: .75rem; }
+.about-skills { max-width: 46rem; margin: 2rem 0 0; border-top: 1px solid var(--line); }
+.about-skills > div { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
+.about-skills dt { padding-top: .2rem; color: var(--muted); font-size: .68rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.about-skills dd { margin: 0; }
+.sk-tools { display: block; color: #343330; font-size: 1rem; }
+.sk-what { display: block; margin-top: .15rem; color: var(--muted); font-size: .85rem; line-height: 1.5; }
 
 #apropos > .section-label,#galerie > .section-label { min-width: 0; color: var(--ink); font-family: var(--titre); font-size: clamp(3rem,6vw,6rem); line-height: .92; text-transform: none; overflow-wrap: anywhere; }
 #apropos > .section-label { grid-column: 1 / -1; grid-row: 1; position: static; margin: 0 0 clamp(1.5rem,3vw,3rem); }
@@ -280,6 +284,7 @@ footer { padding: 3.5rem 5vw 1.5rem; background: #111; color: #f4f1ea; }
     .about,.about-photo { grid-column: auto; grid-row: auto; }
     .about-photo { align-self: auto; width: min(70%,280px); min-height: 0; aspect-ratio: 4 / 5; margin: 0 0 2rem; }
     .about-text p { font-size: 1.2rem; }
+    .about-skills > div { grid-template-columns: 1fr; gap: .25rem; }
     #galerie { padding: 4.5rem 1.25rem 2.5rem; }
     #galerie > .section-label { font-size: clamp(3rem,13vw,5.5rem); }
     .proj-card { aspect-ratio: 4 / 3; }

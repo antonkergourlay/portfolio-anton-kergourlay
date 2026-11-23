@@ -59,7 +59,7 @@ $projetsAccueil = [
     <link rel="icon" href="images/favicon/favicon-aker.svg?v=2" type="image/svg+xml">
     <link rel="icon" href="images/favicon/favicon.ico?v=2" sizes="32x32">
     <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png?v=2">
-    <link rel="stylesheet" href="css/styles.css?v=125" type="text/css">
+    <link rel="stylesheet" href="css/styles.css?v=126" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -236,18 +236,16 @@ $projetsAccueil = [
                 </figure>
                 <div class="about">
                     <div class="about-text">
-                        <p>Je m’appelle Anton. Je suis étudiant en BUT MMI à Laval. Je dessine et je peins depuis plusieurs années, et j’ai aussi pratiqué le modelage. En MMI, j’ai découvert l’édition et le web.</p>
-                        <p>Je lis beaucoup de mangas et j’écoute beaucoup de rap. J’ai choisi de travailler autour de Naoki Urasawa et menace Santana parce que leurs univers m’intéressent vraiment.</p>
-                        <p class="about-more">Graphisme et édition, audiovisuel, dessin, peinture et modelage, photographie, web.</p>
+                        <p>Je m’appelle Anton Kergourlay, je suis étudiant en deuxième année de BUT Métiers du Multimédia et de l’Internet à Laval. J’ai fait du dessin, de la peinture et du modelage, et j’aime surtout les univers visuels de la musique : pochettes, clips, identités, concerts. C’est dans ce domaine que je veux travailler.</p>
+                        <p>Je m’intéresse aussi à l’IA, pour apprendre à m’en servir correctement. Je recherche un stage de 10 semaines, du 22 février au 30 avril 2027.</p>
                         <p class="about-more">Mes influences : SCH, PNL, Bello Dallas, Norman Rockwell, Metanoia, Mickael Azules, Holow, Dexter Maurer.</p>
-                        <div class="about-stack">
-                            <span class="stack-tag">Affinity 3</span>
-                            <span class="stack-tag">DaVinci Resolve</span>
-                            <span class="stack-tag">HTML / CSS</span>
-                            <span class="stack-tag">PHP</span>
-                            <span class="stack-tag">Canva</span>
-                            <span class="stack-tag">Photographie</span>
-                        </div>
+                        <dl class="about-skills">
+                            <div><dt>Design graphique</dt><dd><span class="sk-tools">Affinity, Figma</span><span class="sk-what">Identité visuelle, charte graphique, typographie, photomontage, mockups</span></dd></div>
+                            <div><dt>Print</dt><dd><span class="sk-tools">Affinity Publisher</span><span class="sk-what">Mise en page, affiche, flyer, packaging, préparation des fichiers d’impression</span></dd></div>
+                            <div><dt>Audiovisuel</dt><dd><span class="sk-tools">DaVinci Resolve, CapCut</span><span class="sk-what">Prise de son, montage vidéo et sonore</span></dd></div>
+                            <div><dt>Création manuelle</dt><dd><span class="sk-tools">Dessin, peinture, modelage</span></dd></div>
+                            <div><dt>Web</dt><dd><span class="sk-tools">HTML / CSS, PHP</span></dd></div>
+                        </dl>
                     </div>
                 </div>
             </section>
@@ -260,10 +258,10 @@ $projetsAccueil = [
         <div style="max-width:1400px; margin:0 auto; padding:0 3rem;">
             <section id="contact" class="contact-section" aria-labelledby="titre-contact">
                 <h2 id="titre-contact" class="section-label">Contact</h2>
-                <h2 class="contact-headline">Collaborons<br><em>ensemble.</em></h2>
+                <h2 class="contact-headline">Travaillons<br><em>ensemble.</em></h2>
                 <div class="contact-grid">
                     <div class="contact-info">
-                        <p>Une idée, un projet, une opportunité de stage ?<br>Écris-moi, je réponds rapidement.</p>
+                        <p>Une idée, un projet, un stage ?<br>Écrivez-moi, je réponds rapidement.</p>
                         <br>
                         <p><a href="mailto:anton.kergourlay@gmail.com">anton.kergourlay@gmail.com</a></p>
                         <?php $cv = bouton_cv(); if ($cv !== "") { echo '<div class="contact-cv">' . $cv . '</div>'; } ?>
@@ -275,7 +273,7 @@ $projetsAccueil = [
                                 <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
                             </span>
                             <h3 class="form-ok-title">Message envoyé.</h3>
-                            <p class="form-ok-text">Merci ! Je reviens vers vous très vite. Un récapitulatif vient d’arriver dans votre boîte mail.</p>
+                            <p class="form-ok-text">Merci, je vous réponds dès que possible. Un récapitulatif vient d’arriver dans votre boîte mail.</p>
                             <button type="button" class="form-ok-btn" id="form-again">Écrire un autre message</button>
                         </div>
                         <div class="cf-row">

@@ -1,7 +1,7 @@
 titre;Magazine – Naoki Urasawa
 categorie;Design éditorial · Print
 annee;2026
-contexte;Projet universitaire — BUT MMI
+contexte;Projet universitaire
 competences;Mise en page · Typographie · Direction artistique · Affinity Publisher
 tags;universitaire
 media;image;./images/projets/magazine-urasawa/cover-wide.webp;Double page du magazine Naoki Urasawa ouverte à côté de la couverture de 20th Century Boys
@@ -11,13 +11,13 @@ media;image;./images/projets/magazine-urasawa/page1-2.webp;Pages 1-2 du magazine
 section;Une œuvre à la loupe;Une rubrique consacrée à 20th Century Boys : scénario, manipulation, nostalgie, et l'anecdote du concert Bob Lennon.
 media;image;./images/projets/magazine-urasawa/page3-4-droit.webp;Pages 3-4 du magazine : 20th Century Boys;pleine
 media;image;./images/projets/magazine-urasawa/page3-4.webp;Pages 3-4 du magazine, vue en perspective;pleine
-section;L'affiche;Un poster A3 dans le même univers graphique, centré sur l'antagoniste masqué.
+section;L'affiche;Un poster A3 dans le même univers graphique : l’Ami, l’antagoniste de 20th Century Boys, tient la Terre entre ses mains pour montrer son emprise.
 media;image;./images/projets/magazine-urasawa/poster-1.webp;Affiche 20th Century Boys encadrée contre un mur;pleine
 section;Les fichiers d'impression;Les doubles pages telles qu'elles partent à l'impression, à lire en grand.
 media;image;./images/projets/magazine-urasawa/impression-p1-2.webp;Fichier d'impression des pages 1-2 : Naoki Urasawa;pleine
 media;image;./images/projets/magazine-urasawa/impression-p3-4.webp;Fichier d'impression des pages 3-4 : 20th Century Boys;pleine
-texte;Conception d'un mini-dossier de 4 pages et d'une affiche A3 pour un magazine fictif culturel — Dacdora, mars-avril 2026 — dans le cadre du cours R208 Production graphique. Le choix du sujet s'est imposé naturellement : grand lecteur de manga, j'ai découvert Naoki Urasawa il y a quelques mois avec Monster, puis 20th Century Boys. En réalisant que cet auteur restait méconnu autour de moi malgré son statut de maître du suspense, j'ai voulu lui rendre hommage à travers ce projet.
-texte;Le dossier se structure en deux spreads de deux pages chacun. Le premier est consacré au portrait de l'auteur — sa carrière, ses influences (notamment Osamu Tezuka et la culture occidentale), sa double vie de musicien — avec une mise en page inspirée des codes de Ça m'intéresse : colonnes strictes, lettrines imposantes, encadrés "Le saviez-vous ?". Le second spread est une rubrique "Une œuvre à la loupe" dédiée à 20th Century Boys, explorant le scénario, les thèmes de manipulation et de nostalgie, et l'anecdote du concert Bob Lennon.
-texte;Pour chaque double-page, deux versions de maquette ont été réalisées avant d'aboutir à la version finale, afin d'explorer différentes organisations de la grille, du rapport texte/image et de la hiérarchie typographique. La typographie choisie est la League Spartan — police linéale géométrique à forte présence visuelle, qui évoque à la fois la rigueur journalistique et le design rétro-moderne des années 60, période clé dans l'œuvre d'Urasawa.
-texte;La composition respecte les fondamentaux de la mise en page éditoriale : grille en colonnes, gestion des blancs, intégration de pictogrammes, encadrés thématiques ("Zoom sur", "Chiffre clé", "L'anecdote") et iconographie variée — planches de manga, portraits, symboles — pour offrir plusieurs niveaux de lecture sans perdre la cohérence chromatique de la charte graphique.
-texte;Un poster A3 promotionnel a été conçu en parallèle dans le même univers graphique, avec deux propositions visuelles explorant des directions différentes : une version sobre centrée sur la typographie, et une version plus graphique mettant en scène l'antagoniste masqué de 20th Century Boys. Les deux versions ont été réalisées sur Affinity Publisher et exportées en PDF avec fonds perdus et traits de coupe, conformément aux standards d'impression.
+texte;J’ai conçu un dossier de 4 pages et une affiche A3 pour un magazine fictif. Je lis des mangas, et j’ai découvert Naoki Urasawa il y a quelques mois avec Monster, puis 20th Century Boys. Il est peu connu autour de moi, alors j’ai voulu lui consacrer un dossier.
+texte;Le dossier compte deux doubles pages. La première est un portrait de l’auteur : sa carrière, ses influences (notamment Osamu Tezuka et la culture occidentale) et sa double vie de musicien. La mise en page s’inspire de Ça m’intéresse : colonnes strictes, grandes lettrines, encadrés « Le saviez-vous ? ». La seconde, « Une œuvre à la loupe », porte sur 20th Century Boys : le scénario, la manipulation, la nostalgie et l’anecdote du concert Bob Lennon.
+texte;La police est la League Spartan, que j’utilisais déjà pour de la mise en page : une linéale classique qui passe partout.
+texte;La mise en page repose sur une grille en colonnes, des blancs maîtrisés, des pictogrammes et des encadrés (« Zoom sur », « Chiffre clé », « L’anecdote »). Planches de manga, portraits et symboles donnent plusieurs niveaux de lecture, avec les mêmes couleurs sur tout le dossier.
+texte;L’affiche A3 reprend le même univers graphique. Elle montre l’Ami, le personnage de 20th Century Boys, qui tient la Terre entre ses mains, pour montrer son emprise. C’est un personnage que je trouve profond et charismatique. Le dossier et l’affiche sont faits sur Affinity Publisher et exportés en PDF avec fonds perdus et traits de coupe.
