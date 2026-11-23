@@ -16,7 +16,7 @@ header("Content-type: text/html; charset=utf-8");
     <link rel="icon" href="/images/favicon/favicon-aker.svg?v=2" type="image/svg+xml">
     <link rel="icon" href="/images/favicon/favicon.ico?v=2" sizes="32x32">
     <link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png?v=2">
-    <link rel="stylesheet" href="/css/styles.css?v=126" type="text/css">
+    <link rel="stylesheet" href="/css/styles.css?v=127" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">

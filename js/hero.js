@@ -22,7 +22,7 @@
 
     function demarrer() {
         if (minuteur || slides.length < 2) { return; }
-        minuteur = setInterval(function () { montrer(courant + 1); }, 5000);
+        minuteur = setInterval(function () { montrer(courant + 1); }, 3500);
     }
     function arreter() { clearInterval(minuteur); minuteur = null; }
 
@@ -31,7 +31,7 @@
     // On charge toutes les images une fois la page prête, puis on lance le défilement.
     window.addEventListener('load', function () {
         slides.forEach(function (img) { img.loading = 'eager'; });
-        setTimeout(demarrer, 2500);
+        setTimeout(demarrer, 1500);
     });
     document.addEventListener('visibilitychange', function () {
         if (document.hidden) { arreter(); } else if (document.readyState === 'complete') { demarrer(); }

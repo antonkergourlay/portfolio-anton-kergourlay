@@ -59,7 +59,7 @@ $projetsAccueil = [
     <link rel="icon" href="images/favicon/favicon-aker.svg?v=2" type="image/svg+xml">
     <link rel="icon" href="images/favicon/favicon.ico?v=2" sizes="32x32">
     <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png?v=2">
-    <link rel="stylesheet" href="css/styles.css?v=126" type="text/css">
+    <link rel="stylesheet" href="css/styles.css?v=127" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -182,9 +182,10 @@ $projetsAccueil = [
     ?>
 
     <!-- HERO -->
+    <?php $menuHero = $menuProjets; shuffle($menuHero); // ordre aléatoire à chaque visite ?>
     <header class="hero">
         <div class="hero-slides" aria-hidden="true">
-            <?php foreach ($menuProjets as $i => $p) { $tall = "./images/projets/" . $p["id"] . "/cover-tall.webp"; ?>
+            <?php foreach ($menuHero as $i => $p) { $tall = "./images/projets/" . $p["id"] . "/cover-tall.webp"; ?>
                 <picture>
                     <?php if (file_exists($tall)) { ?><source media="(max-width: 700px)" srcset="<?php echo htmlspecialchars($tall); ?>"><?php } ?>
                     <img class="<?php echo $i === 0 ? "is-active" : ""; ?>" src="<?php echo htmlspecialchars($p["cover"]); ?>" alt="" <?php echo $i === 0 ? 'fetchpriority="high"' : 'loading="lazy"'; ?> style="--pos: <?php echo htmlspecialchars($p["pos"]); ?>">
@@ -196,13 +197,13 @@ $projetsAccueil = [
             <p class="hero-tag">Graphisme &amp; création visuelle · Étudiant en BUT MMI à Laval</p>
         </div>
         <div class="hero-bottom">
-            <a class="hero-current" id="hero-current" href="projet.php?id=<?php echo urlencode($menuProjets[0]["id"]); ?>">
-                <span class="hero-count">01 / <?php echo str_pad(count($menuProjets), 2, "0", STR_PAD_LEFT); ?></span>
-                <span class="hero-current-title"><?php echo htmlspecialchars($menuProjets[0]["titre"]); ?></span>
+            <a class="hero-current" id="hero-current" href="projet.php?id=<?php echo urlencode($menuHero[0]["id"]); ?>">
+                <span class="hero-count">01 / <?php echo str_pad(count($menuHero), 2, "0", STR_PAD_LEFT); ?></span>
+                <span class="hero-current-title"><?php echo htmlspecialchars($menuHero[0]["titre"]); ?></span>
             </a>
             <a class="hero-cta" href="#galerie">Voir les projets <span>↓</span></a>
         </div>
-        <script type="application/json" id="hero-data"><?php echo json_encode(array_map(function ($p) { return array("id" => $p["id"], "titre" => $p["titre"]); }, $menuProjets), JSON_UNESCAPED_UNICODE); ?></script>
+        <script type="application/json" id="hero-data"><?php echo json_encode(array_map(function ($p) { return array("id" => $p["id"], "titre" => $p["titre"]); }, $menuHero), JSON_UNESCAPED_UNICODE); ?></script>
     </header>
 
     <main>
@@ -456,7 +457,7 @@ $projetsAccueil = [
         })();
     </script>
     <script src="js/menu.js?v=16"></script>
-    <script src="js/hero.js"></script>
+    <script src="js/hero.js?v=2"></script>
 </body>
 
 </html>
