@@ -1,6 +1,6 @@
 # Portfolio d'Anton Kergourlay
 
-Portfolio de graphiste, étudiant en BUT MMI (Métiers du Multimédia et de l'Internet). En ligne sur https://antonkergourlay.fr.
+Portfolio d'Anton Kergourlay, étudiant en BUT MMI (Métiers du Multimédia et de l'Internet). En ligne sur https://antonkergourlay.fr.
 
 Le site est écrit en PHP, HTML, CSS et JavaScript, sans framework, sans build et sans Composer.
 
